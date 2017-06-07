@@ -6,7 +6,7 @@ var app = {
 
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-        document.getElementById("location").innerHTML = "Android Sürümü: " +  window.device.version + "</br>" +
+        document.getElementById("devicestatus").innerHTML = "Android Sürümü: " +  window.device.version + "</br>" +
         "</br>" + "UUID: " +  window.device.uuid + "</br>" +
         "</br>" + "Platform: " +  window.device.platform + "</br>" +
         "</br>" + "Üretici: " +  window.device.manufacturer + "</br>" ;
